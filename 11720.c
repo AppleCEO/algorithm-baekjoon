@@ -9,7 +9,7 @@ int main(){
     scanf("%s", input);
 
     for(i=0; i<N; i++){
-        sum += (int)input[i]-48;
+        sum += input[i]-'0';
     }
 
     printf("%d", sum);
