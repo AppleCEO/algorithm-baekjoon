@@ -18,7 +18,7 @@ func main() throws {
     guard let A = Int(inputs[0]), let B = Int(inputs[1]) else {
         throw InputError.isNotInt
     }
-    print(A+B)
+    print(A-B)
 }
 
 try main()
